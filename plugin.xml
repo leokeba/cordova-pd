@@ -69,6 +69,8 @@
         <header-file src="src/ios/PdPlugin.h" />
         <source-file src="src/ios/PdPlugin.m" />
 
+        <hook type="after_prepare" src="scripts/iOS_copy.js" />
+
         <header-file src="src/ios/headers/AudioHelpers.h" />
         <header-file src="src/ios/headers/g_all_guis.h" />
         <header-file src="src/ios/headers/g_canvas.h" />
