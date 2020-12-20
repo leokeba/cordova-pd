@@ -68,6 +68,29 @@
         <!-- cordova pd files -->
         <header-file src="src/ios/PdPlugin.h" />
         <source-file src="src/ios/PdPlugin.m" />
+
+        <header-file src="src/ios/headers/AudioHelpers.h" />
+        <header-file src="src/ios/headers/g_all_guis.h" />
+        <header-file src="src/ios/headers/g_canvas.h" />
+        <header-file src="src/ios/headers/m_imp.h" />
+        <header-file src="src/ios/headers/m_pd.h" />
+        <header-file src="src/ios/headers/PdAudioController.h" />
+        <header-file src="src/ios/headers/PdAudioUnit.h" />
+        <header-file src="src/ios/headers/PdBase.h" />
+        <header-file src="src/ios/headers/PdDispatcher.h" />
+        <header-file src="src/ios/headers/PdFile.h" />
+        <header-file src="src/ios/headers/PdMidiDispatcher.h" />
+        <header-file src="src/ios/headers/ringbuffer.h" />
+        <header-file src="src/ios/headers/s_audio_alsa.h" />
+        <header-file src="src/ios/headers/s_audio_paring.h" />
+        <header-file src="src/ios/headers/s_stuff.h" />
+        <header-file src="src/ios/headers/s_utf8.h" />
+        <header-file src="src/ios/headers/x_libpdreceive.h" />
+        <header-file src="src/ios/headers/x_vexp.h" />
+        <header-file src="src/ios/headers/z_hooks.h" />
+        <header-file src="src/ios/headers/z_libpd.h" />
+        <header-file src="src/ios/headers/z_print_util.h" />
+        <header-file src="src/ios/headers/z_queued.h" />
         
         <!-- libpd.a: pure data and libpd_wrapper archive -->
         <source-file src="src/ios/libpd-ios.a" framework="true" compiler-flags="-DPD -DUSEAPI_DUMMY -DLIBPD_EXTRA" />
